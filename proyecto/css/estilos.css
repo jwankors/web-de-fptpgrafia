@@ -1,0 +1,121 @@
+body{
+  background-color: black;
+}
+#cabecera{
+  background-color: #5b7989;
+  height: 80px;
+  border-radius: 12px;
+}
+#cabecera a{
+  color: white;
+  text-shadow: 2px, 2px, 2px, #02010a;
+}
+#titulo {
+  float: left;
+  padding: 30px 0 0 30px;
+  text-decoration: none;
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+nav {
+  float: right;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+nav ul li a{
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+#imgC{
+  background-color: #82c3a6;
+  height: 50%;
+}
+#imgC img{
+  margin: 10% 10% 10% 10%;
+}
+div [class*="bloque"]{
+  min-height: 40%;
+  flex: 1 2 40%;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#panelIzq {
+  background-color: #d5c75f;
+  order: 1;
+  flex-grow: 1;
+}
+#panelDer {
+  background-color: #d5c75f;
+  order: 2;
+  flex-grow: 1;
+}
+.imgS{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imgS img{
+  margin: 10% 10% 10% 10%;
+}
+#panelIzq img:hover{
+  transform: rotate(10deg);
+  -webkit-filter: drop-shadow(20px 20px 20px #82c3a6);
+  filter: drop-shadow(20px 20px 20px #82c3a6);
+  border-style: solid;
+  border-width: 2px;
+}
+#panelDer img:hover{
+  transform: translate(5px, 20px);
+  -webkit-filter: drop-shadow(20px 20px 20px #82c3a6);
+  filter: drop-shadow(20px 20px 20px #82c3a6);
+  border-style: solid;
+  border-width: 2px;
+}
+#panel1 {
+  background-color: #E6EBE0;
+  float: left;
+  width: 25%;
+  height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+#panel2{
+  background-color: #E6EBE0;
+  float: left;
+  width: 25%;
+  height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+#panel3{
+  background-color: #E6EBE0;
+  float: left;
+  width: 25%;
+  height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+#panel4{
+  background-color: #E6EBE0;
+  float: left;
+  width: 25%;
+  height: 200px;
+  font-size: 16px;
+  text-align: center;
+}
+#informacion{
+  height: 220px;
+  background-color: #E6EBE0;
+  border-radius: 12px;
+}
